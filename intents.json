@@ -1,0 +1,763 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Hii", "Hiii", "Helo", "Heyy",
+        "How are you", "How r u", "Is anyone there?",
+        "Good day", "What's up", "Whatsup", "Sup",
+        "Good morning", "Good afternoon", "Good evening",
+        "Howdy", "Yo", "Hiya", "Heya"
+      ],
+      "responses": [
+        "Hello! I am your International Education Buddy. I can help you with Diplomas, Degrees, Master's, PhD, Student Visas, and studying abroad. What would you like to know?",
+        "Hi there! Welcome! I specialize in international education pathways — from Level 3 Diploma all the way to PhD. How can I help you?",
+        "Greetings! I'm here to guide you through international qualifications, universities, visa options, and career paths. Ask me anything!",
+        "Hello! Need guidance on studying abroad, international courses, or career pathways? I'm here to help!"
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": [
+        "yes", "yea", "yep", "yeah", "ya", "yaa", "yess", "yesss",
+        "sure", "ok", "okay", "alright", "right",
+        "of course", "definitely", "absolutely",
+        "cool", "fine", "sounds good", "go ahead",
+        "tell me", "tell me more", "go on", "continue",
+        "mm", "hmm", "mhm", "uh huh"
+      ],
+      "responses": [
+        "Great! I can help with: Level 3 Diploma, HND, Bachelor's Degree, Top-up Degree, Master's, PhD, Student Visas, and country-specific info. What interests you?",
+        "Sure! Ask me about any qualification level (Diploma, HND, Degree, Master's, PhD) or about studying in a specific country like UK, USA, Canada, or Australia!",
+        "Alright! What would you like to explore? I know about international courses, visa requirements, university options, costs, and career paths after each qualification.",
+        "Go ahead and ask! I can guide you on the full education pathway from Diploma to PhD, including study abroad options."
+      ]
+    },
+    {
+      "tag": "negation",
+      "patterns": [
+        "no", "nah", "nope", "not really", "no thanks",
+        "not now", "maybe later", "I'm good", "nothing"
+      ],
+      "responses": [
+        "No worries! Let me know whenever you need guidance on international education.",
+        "That's okay! I'm here whenever you're ready to explore study abroad options.",
+        "Sure, take your time. I'll be here when you need me!"
+      ]
+    },
+    {
+      "tag": "career_advice",
+      "patterns": [
+        "I need some career advice", "I need some carrer advice",
+        "i need career advice", "i need carrer advice",
+        "Can you give me career advice", "Help me with my career",
+        "I need help", "I need guidance", "career guidance", "career help",
+        "guide me", "help me choose", "what should I study",
+        "what should I do", "I'm confused about my career",
+        "I don't know what to do", "career options", "career suggestions",
+        "suggest me a course", "advise me", "what are my options",
+        "help me decide", "I need your help", "can you help me", "please help",
+        "what course should I do", "which course is best"
+      ],
+      "responses": [
+        "I'd love to help! The international education pathway goes: Level 3 Diploma → HND (Higher National Diploma) → Bachelor's Degree / Top-up Degree → Master's → PhD. Where are you right now in your education journey?",
+        "Sure! Tell me your current qualification level and I'll guide you on the next steps. Are you looking at Diploma, HND, Degree, Master's, or PhD level?",
+        "Happy to help! I can guide you through international qualifications, studying abroad, visa options, and career paths. What's your current education status?",
+        "Of course! The key international qualification levels are: Level 3 Diploma, Level 4/5 HND, Level 6 Bachelor's Degree, Level 7 Master's, and Level 8 PhD. Which one would you like to know about?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "I have to go",
+        "Thanks, bye", "Talk to you later", "Bye bye",
+        "See ya", "Gtg", "Got to go", "Take care",
+        "I'm leaving", "Peace out", "Later"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your international education journey!",
+        "See you later! Feel free to come back anytime for more guidance.",
+        "Take care! Wishing you success in your studies abroad!",
+        "Bye! Remember, I'm always here if you need education guidance."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Awesome, thanks",
+        "Thanks for helping me", "Thank u", "Thnx", "Thnks",
+        "Thanks a lot", "Much appreciated", "Great help",
+        "You're great", "That was useful", "Very helpful"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you have any other questions about international education.",
+        "Any time! Happy to help with your study abroad journey.",
+        "Glad I could help! Feel free to ask more questions.",
+        "My pleasure! Good luck with your education pathway!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?", "What is your name?",
+        "Are you a real person?", "Are you a robot?",
+        "Tell me about yourself", "What can you do?",
+        "What do you do?", "Who made you?",
+        "Are you a bot?", "Are you AI?", "What are you?"
+      ],
+      "responses": [
+        "I am your International Education Buddy — an AI chatbot that helps you navigate global education pathways from Diploma to PhD, including student visas, universities, costs, and career options!",
+        "I'm an AI assistant specialized in international education. I know about Diplomas, HND, Degrees, Master's, PhD programs, student visas, and universities worldwide. Ask me anything!",
+        "I'm Education Buddy! I can guide you through Level 3 Diploma, HND, Bachelor's, Top-up Degree, Master's, PhD, study abroad options, visa requirements, and more!"
+      ]
+    },
+    {
+      "tag": "pathway_overview",
+      "patterns": [
+        "What is the education pathway",
+        "Show me the full pathway",
+        "Education levels",
+        "Qualification levels",
+        "What comes after what",
+        "Full education path",
+        "Study pathway",
+        "What are the levels",
+        "Explain the levels",
+        "Level progression",
+        "How does the system work",
+        "Education system explained",
+        "What is the order of qualifications",
+        "Pathway from diploma to phd"
+      ],
+      "responses": [
+        "Here is the full international education pathway:\n\n📚 Level 3 — Foundation Diploma (1 year) → Entry to higher education\n📚 Level 4/5 — HND / Higher National Diploma (2 years) → Equivalent to first 2 years of uni\n🎓 Level 6 — Bachelor's Degree (3 years) or Top-up Degree (1 year after HND)\n🎓 Level 7 — Master's Degree (1-2 years)\n🎓 Level 8 — PhD / Doctorate (3-5 years)\n\nEach level opens more career opportunities and higher salaries. Which level would you like to know more about?",
+        "The international qualification pathway is:\n\n1️⃣ Level 3 Diploma — Foundation level, entry point\n2️⃣ Level 4/5 HND — Higher National Diploma\n3️⃣ Level 6 Degree — Full Bachelor's or Top-up (1 year after HND)\n4️⃣ Level 7 Master's — Postgraduate specialization\n5️⃣ Level 8 PhD — Doctoral research\n\nYou can enter at any level depending on your current qualifications. What's your starting point?"
+      ]
+    },
+    {
+      "tag": "level3_diploma",
+      "patterns": [
+        "What is Level 3 Diploma",
+        "Tell me about Level 3 Diploma",
+        "Level 3 Diploma details",
+        "Level 3 course",
+        "Foundation diploma",
+        "What is a diploma",
+        "Diploma course",
+        "Level 3",
+        "I want to do diploma",
+        "Diploma details",
+        "What is diploma course",
+        "Why should I do diploma",
+        "Diploma explained",
+        "What does diploma mean",
+        "BTEC Level 3",
+        "Foundation course",
+        "Access to higher education",
+        "How long is diploma",
+        "Diploma duration"
+      ],
+      "responses": [
+        "📚 **Level 3 Diploma (Foundation Diploma)**\n\n• **Duration:** 1 year (full-time)\n• **Equivalent to:** A-Levels / High School completion\n• **What it is:** A vocational qualification that prepares you for higher education or employment. It's offered by bodies like Pearson (BTEC), ATHE, and Qualifi.\n• **Entry Requirements:** Usually completion of secondary school (Year 11 / Grade 10-12)\n• **Benefits:** Provides a pathway to HND or direct university entry. Ideal for students who want practical, career-focused learning rather than traditional exams.\n• **Next Step:** After Level 3, you can progress to Level 4/5 HND or apply directly to a Bachelor's Degree program.\n\nWould you like to know about HND or university options after diploma?",
+        "A **Level 3 Diploma** is a foundation-level qualification in the international education system. It's equivalent to A-Levels or 12th grade completion.\n\n✅ **Duration:** 1 year\n✅ **Benefits:** Practical learning, no heavy exams, pathway to university\n✅ **Providers:** BTEC (Pearson), ATHE, Qualifi, OTHM\n✅ **Cost:** £3,000-£8,000/year (UK), varies by country\n✅ **After Diploma:** Progress to HND (Level 4/5) or apply for a Degree\n\nIt's perfect for students who want to start their higher education journey internationally!"
+      ]
+    },
+    {
+      "tag": "diploma_benefits",
+      "patterns": [
+        "Benefits of diploma",
+        "Why do a diploma",
+        "Is diploma worth it",
+        "Advantages of diploma",
+        "What are the benefits of doing diploma",
+        "Why should I choose diploma",
+        "Diploma advantages",
+        "Is diploma good",
+        "Diploma vs degree"
+      ],
+      "responses": [
+        "**Benefits of doing a Diploma:**\n\n✅ **Shorter Duration** — Only 1 year to complete\n✅ **Lower Cost** — Much cheaper than a full degree (£3,000-£8,000/year)\n✅ **Practical Learning** — Focus on skills, not just theory\n✅ **No Heavy Exams** — Assessment through coursework and assignments\n✅ **Pathway to Higher Education** — Direct entry to HND or university\n✅ **Work-Ready Skills** — Employers value vocational qualifications\n✅ **Flexibility** — Can study part-time or online\n✅ **International Recognition** — Recognized in UK, Europe, Asia, and more\n\nAfter diploma, you can progress to HND or apply for university admission!",
+        "A diploma is definitely worth it! Here's why:\n\n1️⃣ **Quick qualification** — Just 1 year\n2️⃣ **Affordable** — Fraction of degree cost\n3️⃣ **Career-focused** — Learn practical skills\n4️⃣ **University pathway** — Opens doors to HND and degrees\n5️⃣ **No exam pressure** — Coursework-based assessment\n6️⃣ **Global recognition** — Accepted worldwide\n\nIt's the perfect starting point for your international education!"
+      ]
+    },
+    {
+      "tag": "hnd",
+      "patterns": [
+        "What is HND",
+        "Tell me about HND",
+        "HND course",
+        "Higher National Diploma",
+        "Level 4 5",
+        "Level 4",
+        "Level 5",
+        "HND details",
+        "What is Higher National Diploma",
+        "HND explained",
+        "I want to do HND",
+        "HND duration",
+        "How long is HND",
+        "HND benefits",
+        "What after diploma",
+        "After diploma what can I do",
+        "Next after diploma"
+      ],
+      "responses": [
+        "📚 **HND — Higher National Diploma (Level 4/5)**\n\n• **Duration:** 2 years (Level 4 = Year 1, Level 5 = Year 2)\n• **Equivalent to:** First 2 years of a Bachelor's Degree\n• **What it is:** A higher-level vocational qualification. Awarded by Pearson (BTEC HND), SQA, or other bodies.\n• **Entry Requirements:** Level 3 Diploma or A-Levels\n• **Benefits:** Costs less than a full degree, practical skills, and you can 'top-up' to a full degree in just 1 more year!\n• **Cost:** £6,000-£15,000/year depending on country and institution\n• **Next Step:** Top-up to a Bachelor's Degree (1 year) or enter the workforce\n\nWould you like to know about Top-up Degrees or HND costs in a specific country?",
+        "**HND (Higher National Diploma)** is a Level 4/5 qualification — equivalent to the first 2 years of university!\n\n✅ **Duration:** 2 years\n✅ **Entry:** After Level 3 Diploma or A-Levels\n✅ **Benefit:** After HND, you only need 1 more year (Top-up) for a full Bachelor's Degree!\n✅ **Cost:** Much cheaper than doing 3 years of university\n✅ **Recognition:** Globally recognized, especially in UK, Canada, Australia\n✅ **Work Rights:** Many countries allow part-time work on student visa during HND\n\nHND is the smartest pathway to save money and still get a degree!"
+      ]
+    },
+    {
+      "tag": "degree",
+      "patterns": [
+        "What is a degree",
+        "Tell me about degree",
+        "Bachelor degree",
+        "Bachelors degree",
+        "BA degree", "BSc degree", "BBA degree",
+        "Undergraduate degree",
+        "Level 6",
+        "How to get a degree",
+        "Degree details",
+        "I want to do a degree",
+        "Degree benefits",
+        "University degree",
+        "3 year degree",
+        "Full degree"
+      ],
+      "responses": [
+        "🎓 **Bachelor's Degree (Level 6)**\n\n• **Duration:** 3 years (full-time) or 1 year (Top-up after HND)\n• **Types:** BA (Arts), BSc (Science), BBA (Business), BEng (Engineering), LLB (Law)\n• **Entry Requirements:** A-Levels, Level 3 Diploma, or HND (for Top-up)\n• **Benefits:** Globally recognized, essential for professional careers, required for Master's\n• **Cost:** Varies hugely by country:\n  - 🇬🇧 UK: £9,250-£25,000/year\n  - 🇺🇸 USA: $20,000-$50,000/year\n  - 🇨🇦 Canada: CAD 15,000-35,000/year\n  - 🇦🇺 Australia: AUD 20,000-45,000/year\n  - 🇩🇪 Germany: Often FREE (public unis)\n• **Next Step:** Master's Degree or start working\n\nWant to know about specific countries or Top-up Degrees?",
+        "A **Bachelor's Degree** is the standard undergraduate qualification (Level 6). It typically takes 3 years.\n\n✅ **Types:** BA, BSc, BBA, BEng, LLB\n✅ **Duration:** 3 years (or 1 year Top-up after HND)\n✅ **Entry:** After A-Levels, Diploma, or HND\n✅ **Benefits:** Required for most professional jobs, entry to Master's, globally recognized\n✅ **Top universities:** Oxford, Cambridge, MIT, Harvard, Toronto, Melbourne, TU Munich\n\nA degree is essential for career growth and is required before you can pursue a Master's or PhD!"
+      ]
+    },
+    {
+      "tag": "topup_degree",
+      "patterns": [
+        "What is a top up degree",
+        "Top up degree",
+        "Topup degree",
+        "Top-up degree",
+        "Top up after HND",
+        "1 year degree",
+        "HND to degree",
+        "Convert HND to degree",
+        "Top up explained",
+        "How to get degree after HND",
+        "Degree in 1 year",
+        "Fast track degree",
+        "What after HND",
+        "After HND what can I do",
+        "Next after HND"
+      ],
+      "responses": [
+        "🎓 **Top-up Degree (Level 6)**\n\n• **Duration:** Just 1 year!\n• **What it is:** A final-year-only program that converts your HND into a full Bachelor's Degree. You 'top up' your Level 4/5 HND to Level 6.\n• **Entry Requirements:** HND (Level 5) or equivalent\n• **Benefits:**\n  - Save 2 years of university fees!\n  - Get a full, recognized Bachelor's Degree\n  - Same degree certificate as 3-year students\n  - Can then progress to Master's\n• **Cost:** £8,000-£15,000 (UK), varies by country\n• **Popular Subjects:** Business Management, Computing, Health & Social Care, Engineering\n• **Next Step:** Master's Degree or employment\n\nIt's the smartest and most affordable route to a degree!",
+        "A **Top-up Degree** is a 1-year program that converts your HND into a full Bachelor's Degree!\n\n✅ **Duration:** Only 1 year\n✅ **Entry:** After completing HND (Level 4/5)\n✅ **Result:** Full Bachelor's Degree — same as a 3-year degree!\n✅ **Cost:** Much cheaper — you only pay for 1 year of uni\n✅ **Path:** Diploma (1yr) → HND (2yrs) → Top-up (1yr) = Full Degree in 4 years!\n\nMany UK universities like University of Sunderland, Anglia Ruskin, University of Greenwich, and Coventry University offer Top-up programs."
+      ]
+    },
+    {
+      "tag": "masters",
+      "patterns": [
+        "What is a masters degree",
+        "Tell me about masters",
+        "Masters degree",
+        "Master degree",
+        "MSc", "MA", "MBA", "MEng",
+        "Postgraduate",
+        "Level 7",
+        "How to do masters",
+        "I want to do masters",
+        "Masters details",
+        "Masters benefits",
+        "Masters abroad",
+        "Study masters in UK",
+        "Study masters in USA",
+        "Masters duration",
+        "How long is masters",
+        "What after degree",
+        "After degree what can I do",
+        "Next after degree",
+        "PG course", "Post graduation"
+      ],
+      "responses": [
+        "🎓 **Master's Degree (Level 7)**\n\n• **Duration:** 1 year (UK), 2 years (USA, Canada, Australia)\n• **Types:** MSc (Science), MA (Arts), MBA (Business), MEng (Engineering), LLM (Law), MPH (Public Health)\n• **Entry Requirements:** Bachelor's Degree + possibly work experience (for MBA)\n• **Benefits:**\n  - Higher salary (30-50% more than Bachelor's holders)\n  - Specialization in your field\n  - Better job prospects globally\n  - Required for PhD\n  - Post-study work visa in many countries\n• **Cost:**\n  - 🇬🇧 UK: £10,000-£35,000/year\n  - 🇺🇸 USA: $25,000-$60,000/year\n  - 🇨🇦 Canada: CAD 15,000-40,000/year\n  - 🇦🇺 Australia: AUD 22,000-50,000/year\n  - 🇩🇪 Germany: Often FREE at public universities\n• **Next Step:** PhD or professional career\n\nWhich country interests you for Master's?",
+        "A **Master's Degree** is a postgraduate Level 7 qualification.\n\n✅ **Duration:** 1 year (UK) or 2 years (USA/Canada/Australia)\n✅ **Types:** MSc, MA, MBA, MEng, LLM\n✅ **Entry:** Bachelor's Degree required\n✅ **Salary Boost:** 30-50% higher than with just a Bachelor's!\n✅ **Top Countries:** UK (1 year, cost-effective), USA (research-focused), Canada (immigration-friendly), Germany (free tuition)\n✅ **Post-Study Work:** UK gives 2 years, Canada gives 3 years, Australia gives 2-4 years!\n\nA Master's significantly boosts your career and earning potential!"
+      ]
+    },
+    {
+      "tag": "phd",
+      "patterns": [
+        "What is a PhD",
+        "Tell me about PhD",
+        "PhD course",
+        "Doctorate",
+        "Doctoral degree",
+        "Level 8",
+        "How to do PhD",
+        "I want to do PhD",
+        "PhD details",
+        "PhD benefits",
+        "PhD abroad",
+        "PhD duration",
+        "How long is PhD",
+        "Research degree",
+        "Doctoral program",
+        "What after masters",
+        "After masters what can I do",
+        "Next after masters"
+      ],
+      "responses": [
+        "🎓 **PhD / Doctorate (Level 8)**\n\n• **Duration:** 3-5 years (full-time), 5-7 years (part-time)\n• **What it is:** The highest academic qualification. You conduct original research and write a thesis/dissertation.\n• **Entry Requirements:** Master's Degree (some programs accept Bachelor's with first-class honors)\n• **Benefits:**\n  - Highest academic credential — you become 'Dr.'\n  - Career in academia, research, or specialized industry roles\n  - Many PhD programs are FULLY FUNDED with stipends\n  - Contribute original knowledge to your field\n• **Cost:** Many PhDs are funded! Stipends range from £15,000-£18,000/year (UK), $20,000-$35,000/year (USA)\n• **Top Fields:** Computer Science, Engineering, Biomedical Sciences, Business, Psychology\n• **Countries:** UK (3-4 years), USA (5-6 years), Germany (3-5 years, no tuition), Canada (4-5 years)\n\nWant to know about PhD funding or specific countries?",
+        "**PhD (Doctor of Philosophy)** is the highest Level 8 academic qualification.\n\n✅ **Duration:** 3-5 years\n✅ **Entry:** Master's Degree (sometimes Bachelor's with distinction)\n✅ **Funded:** Many PhDs come with full funding + monthly stipend!\n✅ **Career:** Professor, Researcher, Industry Expert, Consultant\n✅ **Salary:** PhD holders earn 20-40% more than Master's holders\n✅ **Title:** You earn the title 'Dr.' — the highest academic honor\n\nPhDs are available in almost every field. The best part? Many are FULLY FUNDED, so you get paid to study!"
+      ]
+    },
+    {
+      "tag": "student_visa",
+      "patterns": [
+        "Student visa",
+        "How to get student visa",
+        "Study visa",
+        "Visa for studying abroad",
+        "Student visa requirements",
+        "Visa process",
+        "How to apply for student visa",
+        "Visa details",
+        "Can I study abroad",
+        "Study abroad visa",
+        "International student visa",
+        "Visa for international students",
+        "Tier 4 visa", "Study permit",
+        "F1 visa", "Student route visa",
+        "How to go abroad for study"
+      ],
+      "responses": [
+        "🛂 **Student Visa Information by Country:**\n\n🇬🇧 **UK — Student Route Visa (formerly Tier 4)**\n• CAS letter from university needed\n• Show £1,334/month (London) or £1,023/month (outside London) living costs\n• IELTS 5.5-6.5 required\n• Can work 20 hrs/week during term\n• 2-year Post-Study Work Visa (Graduate Route)\n\n🇺🇸 **USA — F-1 Visa**\n• I-20 form from university needed\n• Show sufficient funds\n• TOEFL/IELTS required\n• Can work 20 hrs/week on campus\n• OPT: 1-3 years post-study work\n\n🇨🇦 **Canada — Study Permit**\n• Letter of acceptance from DLI\n• Show CAD 10,000+ living costs\n• IELTS required\n• Can work 20 hrs/week\n• 3-year PGWP (Post-Graduation Work Permit)\n\n🇦🇺 **Australia — Subclass 500**\n• CoE from registered institution\n• Show AUD 21,041/year living costs\n• IELTS 5.5-6.5 required\n• Can work 48 hrs/fortnight\n• 2-4 year post-study work visa\n\nWhich country do you want detailed visa info for?",
+        "To study abroad, you'll need a **Student Visa**. Here's a quick overview:\n\n🇬🇧 UK: Student Route Visa — £363 fee, 2yr post-study work\n🇺🇸 USA: F-1 Visa — $185 SEVIS + $160 fee, OPT work permit\n🇨🇦 Canada: Study Permit — CAD 150 fee, 3yr PGWP\n🇦🇺 Australia: Subclass 500 — AUD 710 fee, 2-4yr post-study work\n🇩🇪 Germany: Student Visa — €75 fee, 18-month job seeker visa\n🇳🇿 New Zealand: Student Visa — NZD 375 fee, 1-3yr post-study work\n\nCommon requirements: Acceptance letter, proof of funds, English test (IELTS/TOEFL), valid passport. Which country interests you?"
+      ]
+    },
+    {
+      "tag": "study_uk",
+      "patterns": [
+        "Study in UK",
+        "Studying in UK",
+        "UK universities",
+        "I want to study in UK",
+        "UK education",
+        "How to study in England",
+        "UK courses",
+        "UK colleges",
+        "Universities in UK",
+        "UK student visa",
+        "UK fees",
+        "Living in UK",
+        "UK education system",
+        "Is UK good for study",
+        "Study in England",
+        "Study in London",
+        "UK study cost"
+      ],
+      "responses": [
+        "🇬🇧 **Studying in the UK**\n\n💷 **Currency:** British Pound Sterling (GBP £)\n\n🏫 **Top Universities:**\n• University of Oxford, University of Cambridge\n• Imperial College London, UCL, LSE\n• University of Edinburgh, University of Manchester\n• King's College London, University of Warwick\n• University of Bristol, University of Leeds\n\n💰 **Fees (International Students):**\n• Diploma/HND: £6,000-£12,000/year\n• Bachelor's: £10,000-£30,000/year\n• Master's: £12,000-£35,000/year\n• PhD: Often funded with £15,000-£18,000/year stipend\n\n🏠 **Living Costs:** £12,000-£16,000/year (£1,000-£1,334/month)\n\n💼 **Work Rights:** 20 hrs/week during term, full-time during holidays\n🎓 **Post-Study:** 2-year Graduate Route visa\n\n📋 **Visa:** Student Route Visa, need CAS letter + IELTS 5.5-6.5\n\nThe UK is the most popular destination for international students!",
+        "**UK** is an excellent choice for international education!\n\n🔑 Key Facts:\n• Currency: GBP (£1 ≈ ₹105 / $1.27 / €1.17)\n• Master's is only 1 year (saves time and money!)\n• Top-up Degrees available (HND → Degree in 1 year)\n• Post-study work: 2 years\n• Work during study: 20 hrs/week\n• World-class universities: Oxford, Cambridge, Imperial, UCL\n• Many institutions offer Diploma → HND → Top-up pathway\n\nPopular institutions for Diploma/HND: London School of Business, LSBU, University of Sunderland, Coventry University, Anglia Ruskin University."
+      ]
+    },
+    {
+      "tag": "study_usa",
+      "patterns": [
+        "Study in USA",
+        "Studying in USA",
+        "USA universities",
+        "US universities",
+        "I want to study in USA",
+        "I want to study in America",
+        "USA education",
+        "How to study in America",
+        "USA courses",
+        "Universities in USA",
+        "USA student visa",
+        "USA fees",
+        "American universities",
+        "Ivy League",
+        "USA study cost"
+      ],
+      "responses": [
+        "🇺🇸 **Studying in the USA**\n\n💵 **Currency:** US Dollar (USD $)\n\n🏫 **Top Universities:**\n• MIT, Stanford University, Harvard University\n• Caltech, University of Chicago\n• Columbia University, Yale University\n• Princeton University, UC Berkeley\n• University of Michigan, NYU, UCLA\n\n💰 **Fees (International Students):**\n• Associate Degree (2yr): $8,000-$20,000/year\n• Bachelor's (4yr): $20,000-$55,000/year\n• Master's (2yr): $25,000-$60,000/year\n• PhD (5-6yr): Often FULLY FUNDED with stipend\n\n🏠 **Living Costs:** $12,000-$20,000/year\n\n💼 **Work Rights:** 20 hrs/week on campus only\n🎓 **Post-Study:** OPT — 1 year (3 years for STEM fields)\n\n📋 **Visa:** F-1 Student Visa, need I-20 + TOEFL/IELTS\n\n⚠️ Note: USA degrees are 4 years for Bachelor's (unlike 3 years in UK).",
+        "**USA** has the world's top-ranked universities!\n\n🔑 Key Facts:\n• Currency: USD ($1 ≈ ₹83 / £0.79 / €0.92)\n• Bachelor's is 4 years (not 3 like UK)\n• Master's is typically 2 years\n• PhD programs are often FULLY FUNDED\n• OPT work visa: 1 year (3 years for STEM)\n• World's best research facilities\n• Ivy League: Harvard, Yale, Princeton, Columbia, Penn, Brown, Dartmouth, Cornell\n\nUSA is ideal if you want world-class research and STEM programs!"
+      ]
+    },
+    {
+      "tag": "study_canada",
+      "patterns": [
+        "Study in Canada",
+        "Studying in Canada",
+        "Canada universities",
+        "I want to study in Canada",
+        "Canada education",
+        "How to study in Canada",
+        "Canada courses",
+        "Universities in Canada",
+        "Canada student visa",
+        "Canada fees",
+        "Canada study cost",
+        "Is Canada good for study",
+        "Canada PR after study"
+      ],
+      "responses": [
+        "🇨🇦 **Studying in Canada**\n\n💵 **Currency:** Canadian Dollar (CAD $)\n\n🏫 **Top Universities:**\n• University of Toronto, McGill University\n• University of British Columbia (UBC)\n• University of Waterloo, University of Alberta\n• McMaster University, University of Montreal\n• University of Ottawa, Simon Fraser University\n\n💰 **Fees (International Students):**\n• Diploma (1-2yr): CAD 12,000-20,000/year\n• Bachelor's (4yr): CAD 15,000-35,000/year\n• Master's (1-2yr): CAD 15,000-40,000/year\n• PhD: Often funded with CAD 15,000-25,000/year stipend\n\n🏠 **Living Costs:** CAD 10,000-15,000/year\n\n💼 **Work Rights:** 20 hrs/week during term, full-time during breaks\n🎓 **Post-Study:** 3-year PGWP (Post-Graduation Work Permit)\n🏡 **PR Pathway:** PGWP → Canadian Experience Class → Permanent Residency!\n\n📋 **Visa:** Study Permit, need letter of acceptance from DLI + IELTS\n\nCanada is the BEST for immigration after study!",
+        "**Canada** is the top choice for students who want to settle abroad!\n\n🔑 Key Facts:\n• Currency: CAD ($1 CAD ≈ ₹62 / $0.74 USD / £0.58)\n• 3-year Post-Graduation Work Permit (PGWP) — longest in the world!\n• Clear pathway to Permanent Residency (PR)\n• Affordable compared to USA/UK\n• Safe, multicultural, high quality of life\n• Top colleges: UofT, McGill, UBC, Waterloo\n\nCanada is ideal if you want to study AND settle abroad permanently!"
+      ]
+    },
+    {
+      "tag": "study_australia",
+      "patterns": [
+        "Study in Australia",
+        "Studying in Australia",
+        "Australia universities",
+        "I want to study in Australia",
+        "Australia education",
+        "How to study in Australia",
+        "Australia courses",
+        "Universities in Australia",
+        "Australia student visa",
+        "Australia fees",
+        "Australia study cost",
+        "Is Australia good for study",
+        "Group of Eight"
+      ],
+      "responses": [
+        "🇦🇺 **Studying in Australia**\n\n💵 **Currency:** Australian Dollar (AUD $)\n\n🏫 **Top Universities (Group of Eight):**\n• University of Melbourne, University of Sydney\n• Australian National University (ANU)\n• University of Queensland (UQ)\n• UNSW Sydney, Monash University\n• University of Western Australia, University of Adelaide\n\n💰 **Fees (International Students):**\n• Diploma (1yr): AUD 15,000-25,000/year\n• Bachelor's (3yr): AUD 20,000-45,000/year\n• Master's (1.5-2yr): AUD 22,000-50,000/year\n• PhD: Often funded\n\n🏠 **Living Costs:** AUD 21,041/year (government requirement)\n\n💼 **Work Rights:** 48 hrs/fortnight during term, unlimited during breaks\n🎓 **Post-Study:** 2-4 year post-study work visa\n\n📋 **Visa:** Subclass 500, need CoE + IELTS 5.5-6.5\n\nAustralia offers excellent education and great work-life balance!",
+        "**Australia** is a fantastic study destination!\n\n🔑 Key Facts:\n• Currency: AUD ($1 AUD ≈ ₹55 / $0.66 USD / £0.52)\n• High quality education — 7 of the world's top 100 universities\n• 2-4 year post-study work visa\n• High minimum wage: AUD 23.23/hour\n• Beautiful weather and lifestyle\n• Strong economy with good job opportunities\n• Top unis: Melbourne, Sydney, ANU, UNSW, Monash\n\nAustralia is perfect for students who want quality education and great lifestyle!"
+      ]
+    },
+    {
+      "tag": "study_germany",
+      "patterns": [
+        "Study in Germany",
+        "Studying in Germany",
+        "Germany universities",
+        "I want to study in Germany",
+        "Germany education",
+        "Free education in Germany",
+        "Germany courses",
+        "Universities in Germany",
+        "Germany student visa",
+        "Germany fees",
+        "Germany study cost",
+        "Is Germany good for study",
+        "Free tuition Germany",
+        "Study in Europe"
+      ],
+      "responses": [
+        "🇩🇪 **Studying in Germany**\n\n💶 **Currency:** Euro (EUR €)\n\n🏫 **Top Universities:**\n• Technical University of Munich (TUM)\n• Ludwig Maximilian University (LMU Munich)\n• Heidelberg University\n• Humboldt University Berlin\n• RWTH Aachen, Free University Berlin\n• University of Freiburg, University of Göttingen\n\n💰 **Fees (International Students):**\n• PUBLIC universities: TUITION FREE! (Only €300-€350/semester administrative fee)\n• Private universities: €10,000-€30,000/year\n• Exception: Baden-Württemberg charges €1,500/semester for non-EU students\n\n🏠 **Living Costs:** €10,000-€12,000/year (~€850/month)\n\n💼 **Work Rights:** 120 full days or 240 half days per year\n🎓 **Post-Study:** 18-month job seeker visa\n\n📋 **Visa:** Student Visa, need university admission + blocked account (€11,208/year)\n\nGermany is the BEST for FREE quality education!",
+        "**Germany** offers FREE tuition at public universities!\n\n🔑 Key Facts:\n• Currency: EUR (€1 ≈ ₹90 / $1.09 USD / £0.86)\n• PUBLIC universities = NO TUITION FEES!\n• Only pay semester fee: €300-€350\n• 18-month post-study job seeker visa\n• Strong economy — 4th largest in the world\n• Engineering and STEM programs are world-class\n• Top unis: TU Munich, LMU Munich, Heidelberg, RWTH Aachen\n• Many programs taught in English at Master's level\n\nGermany is the most affordable option for quality education in Europe!"
+      ]
+    },
+    {
+      "tag": "study_newzealand",
+      "patterns": [
+        "Study in New Zealand",
+        "Studying in New Zealand",
+        "New Zealand universities",
+        "I want to study in New Zealand",
+        "New Zealand education",
+        "New Zealand courses",
+        "NZ universities",
+        "NZ study",
+        "Study in NZ",
+        "New Zealand student visa"
+      ],
+      "responses": [
+        "🇳🇿 **Studying in New Zealand**\n\n💵 **Currency:** New Zealand Dollar (NZD $)\n\n🏫 **Top Universities:**\n• University of Auckland (Top 100 globally)\n• University of Otago, Victoria University of Wellington\n• University of Canterbury, University of Waikato\n• Massey University, AUT University\n• Lincoln University\n\n💰 **Fees (International Students):**\n• Diploma: NZD 18,000-25,000/year\n• Bachelor's (3yr): NZD 22,000-35,000/year\n• Master's (1-2yr): NZD 26,000-40,000/year\n• PhD: NZD 6,500-9,000/year (same as domestic!)\n\n🏠 **Living Costs:** NZD 15,000-20,000/year\n\n💼 **Work Rights:** 20 hrs/week during term\n🎓 **Post-Study:** 1-3 year post-study work visa\n\n📋 **Visa:** Student Visa (NZD 375 fee)\n\nNew Zealand offers affordable PhD programs and a beautiful lifestyle!"
+      ]
+    },
+    {
+      "tag": "internship_work",
+      "patterns": [
+        "Can I do internship",
+        "Internship after diploma",
+        "Internship after degree",
+        "Work after study",
+        "Work placement",
+        "Can I work during study",
+        "Part time work",
+        "Part time job while studying",
+        "Work rights for students",
+        "Can international students work",
+        "How many hours can I work",
+        "Job after graduation",
+        "Employment after study",
+        "Work experience",
+        "Internship opportunities",
+        "Can I work after diploma",
+        "Can I work after HND",
+        "Work permit after study"
+      ],
+      "responses": [
+        "💼 **Work & Internship Rights for International Students:**\n\n**During Studies:**\n• 🇬🇧 UK: 20 hrs/week (term), full-time (holidays)\n• 🇺🇸 USA: 20 hrs/week (on-campus only), CPT for internships\n• 🇨🇦 Canada: 20 hrs/week (term), full-time (breaks)\n• 🇦🇺 Australia: 48 hrs/fortnight (term), unlimited (breaks)\n• 🇩🇪 Germany: 120 full days or 240 half days/year\n\n**After Studies (Post-Study Work Visa):**\n• 🇬🇧 UK: 2 years (Graduate Route)\n• 🇺🇸 USA: 1 year OPT (3 years for STEM)\n• 🇨🇦 Canada: Up to 3 years PGWP\n• 🇦🇺 Australia: 2-4 years\n• 🇩🇪 Germany: 18 months (Job Seeker Visa)\n• 🇳🇿 New Zealand: 1-3 years\n\n**Internships:**\nYes! You can do internships at every level — Diploma, HND, Degree, and Master's. Many courses include mandatory work placements. Internships significantly boost your employability!",
+        "**Can you work during and after study? YES!**\n\n✅ **During Study:** Most countries allow 20 hrs/week part-time work\n✅ **After Diploma:** You can work part-time or do internships. Some countries allow full-time work after Level 5+\n✅ **After HND:** Work placement opportunities available. Some programs include sandwich years\n✅ **After Degree:** Post-study work visa available in most countries (2-3 years)\n✅ **After Master's/PhD:** Best work visa options and highest salaries\n\n💡 **Tip:** Internships during study are the BEST way to get hired after graduation. Many employers offer full-time jobs to their interns!"
+      ]
+    },
+    {
+      "tag": "international_vs_local",
+      "patterns": [
+        "International vs local",
+        "International or local institution",
+        "Should I study locally or abroad",
+        "Local vs international university",
+        "What is better local or international",
+        "Why study abroad",
+        "Benefits of studying abroad",
+        "Why international education",
+        "Is studying abroad worth it",
+        "Local college vs foreign college",
+        "Should I go abroad to study",
+        "Advantage of studying abroad"
+      ],
+      "responses": [
+        "🌍 **International vs Local Education:**\n\n**International Education Benefits:**\n✅ Globally recognized qualifications\n✅ Exposure to diverse cultures and perspectives\n✅ Better career opportunities worldwide\n✅ Higher earning potential (2-5x more)\n✅ Post-study work visa → possible immigration\n✅ World-class facilities and research\n✅ International networking opportunities\n✅ Personal growth and independence\n\n**Local Education Benefits:**\n✅ Lower cost\n✅ Close to family\n✅ No visa hassles\n✅ Local job market connections\n✅ Comfortable environment\n\n**Verdict:** International education is worth the investment if you want global career opportunities, higher salaries, and the chance to live abroad. The ROI (Return on Investment) is usually recovered within 2-3 years of working abroad!",
+        "**Why study abroad?**\n\n🌍 A degree from an international university opens doors worldwide!\n\n1️⃣ **Higher Salary:** International graduates earn 2-5x more than local graduates\n2️⃣ **Global Network:** Connect with people from 100+ countries\n3️⃣ **Immigration:** Study visa → Work visa → PR in countries like Canada, UK, Australia\n4️⃣ **Quality:** Access to world-class labs, libraries, and professors\n5️⃣ **Skills:** Develop independence, cross-cultural communication, and adaptability\n\nLocal education is good for cost savings, but international education transforms your career and life!"
+      ]
+    },
+    {
+      "tag": "costs_fees",
+      "patterns": [
+        "How much does it cost",
+        "Fees for studying abroad",
+        "Cost of studying abroad",
+        "Tuition fees",
+        "How expensive is it",
+        "Can I afford to study abroad",
+        "Scholarship available",
+        "Financial help",
+        "Education loan",
+        "Study abroad budget",
+        "Cheapest country to study",
+        "Affordable study abroad",
+        "Total cost of study abroad",
+        "How to pay for study abroad"
+      ],
+      "responses": [
+        "💰 **Cost Comparison for International Students (per year):**\n\n| Country | Tuition (Degree) | Living Cost | Currency |\n|---------|-----------------|-------------|----------|\n| 🇬🇧 UK | £10,000-£30,000 | £12,000-£16,000 | GBP (£) |\n| 🇺🇸 USA | $20,000-$55,000 | $12,000-£20,000 | USD ($) |\n| 🇨🇦 Canada | CAD 15,000-35,000 | CAD 10,000-15,000 | CAD ($) |\n| 🇦🇺 Australia | AUD 20,000-45,000 | AUD 21,000 | AUD ($) |\n| 🇩🇪 Germany | FREE (public) | €10,000-12,000 | EUR (€) |\n| 🇳🇿 NZ | NZD 22,000-35,000 | NZD 15,000-20,000 | NZD ($) |\n\n💡 **Save money with:** Diploma → HND → Top-up pathway (much cheaper than 3 years of uni!)\n📋 **Funding options:** Scholarships, education loans, part-time work, family sponsorship\n\nGermany is the cheapest (free tuition!), Canada offers the best immigration ROI.",
+        "**Most Affordable Countries for Study:**\n\n1️⃣ 🇩🇪 **Germany** — FREE tuition at public universities!\n2️⃣ 🇨🇦 **Canada** — Moderate fees + best immigration pathway\n3️⃣ 🇬🇧 **UK** — 1-year Master's saves money on living costs\n4️⃣ 🇳🇿 **New Zealand** — Affordable PhD programs\n5️⃣ 🇦🇺 **Australia** — High part-time wages offset costs\n6️⃣ 🇺🇸 **USA** — Most expensive but best funded PhDs\n\n💡 **Smart Strategy:** Do Diploma + HND locally, then Top-up Degree abroad — saves 60% of costs!"
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Scholarships",
+        "How to get scholarship",
+        "Scholarship for international students",
+        "Free scholarship",
+        "Financial aid",
+        "Funded programs",
+        "Full scholarship",
+        "Merit scholarship",
+        "Need based scholarship",
+        "Scholarship to study abroad",
+        "Government scholarship",
+        "Chevening", "Fulbright", "Commonwealth"
+      ],
+      "responses": [
+        "🎓 **Top Scholarships for International Students:**\n\n🇬🇧 **UK:**\n• Chevening Scholarship — Fully funded Master's\n• Commonwealth Scholarship — For Commonwealth country students\n• GREAT Scholarships — £10,000 towards tuition\n• University-specific scholarships (varies)\n\n🇺🇸 **USA:**\n• Fulbright Scholarship — Fully funded\n• Hubert Humphrey Fellowship\n• University scholarships and assistantships\n\n🇨🇦 **Canada:**\n• Vanier Canada Graduate Scholarships — CAD 50,000/year for PhD\n• Ontario Graduate Scholarship\n• University-specific awards\n\n🇦🇺 **Australia:**\n• Australia Awards — Fully funded\n• Destination Australia Scholarship\n• Research Training Program (RTP) for PhD\n\n🇩🇪 **Germany:**\n• DAAD Scholarship — Very popular, covers everything\n• Deutschland Stipendium — €300/month\n\n💡 **Tips:** Apply early, maintain good grades, write strong personal statements, and apply to multiple scholarships!",
+        "**Yes, scholarships are available!** Here are the most popular ones:\n\n🏆 Chevening (UK) — Fully funded Master's\n🏆 Fulbright (USA) — Fully funded\n🏆 DAAD (Germany) — Covers tuition + living\n🏆 Australia Awards — Fully funded\n🏆 Vanier (Canada) — CAD 50,000/year for PhD\n🏆 Commonwealth Scholarships — For developing countries\n\nMost universities also offer their own scholarships — check the university website when applying!"
+      ]
+    },
+    {
+      "tag": "ielts_english",
+      "patterns": [
+        "IELTS",
+        "IELTS score needed",
+        "English test required",
+        "TOEFL",
+        "PTE",
+        "English language requirement",
+        "IELTS preparation",
+        "How much IELTS score needed",
+        "Do I need IELTS",
+        "English proficiency test",
+        "IELTS for UK",
+        "IELTS for Canada",
+        "IELTS bands needed"
+      ],
+      "responses": [
+        "📝 **English Language Requirements:**\n\n**IELTS Score Requirements:**\n• Diploma/HND: IELTS 5.5 overall (no band below 5.0)\n• Bachelor's Degree: IELTS 6.0-6.5\n• Master's Degree: IELTS 6.5-7.0\n• PhD: IELTS 6.5-7.0\n• MBA: IELTS 6.5-7.0\n\n**Accepted Tests:**\n• IELTS Academic — Most widely accepted\n• TOEFL iBT — Mainly for USA/Canada\n• PTE Academic — Accepted in UK, Australia, NZ\n• Duolingo English Test — Some universities accept\n• Cambridge English — CAE/CPE\n\n**Score Equivalents:**\n• IELTS 6.0 ≈ TOEFL 80 ≈ PTE 50\n• IELTS 6.5 ≈ TOEFL 88 ≈ PTE 58\n• IELTS 7.0 ≈ TOEFL 100 ≈ PTE 65\n\n💡 **Tip:** Some universities offer pre-sessional English courses if your score is slightly below the requirement!",
+        "**IELTS/English test is required for studying abroad.** Here's what you need:\n\n📊 Diploma: IELTS 5.5\n📊 Degree: IELTS 6.0-6.5\n📊 Master's: IELTS 6.5-7.0\n📊 PhD: IELTS 6.5-7.0\n\nAlternatives: TOEFL, PTE Academic, Duolingo English Test\n\n💡 Some countries/programs don't need IELTS if you studied in English-medium schools. Check with the university!"
+      ]
+    },
+    {
+      "tag": "universities_institutions",
+      "patterns": [
+        "Which university should I choose",
+        "Best universities",
+        "Top universities",
+        "University rankings",
+        "Good colleges abroad",
+        "University recommendations",
+        "Which institution is best",
+        "Where should I study",
+        "Best institutions",
+        "Top ranked universities",
+        "QS ranking",
+        "World university rankings"
+      ],
+      "responses": [
+        "🏫 **Top Universities Worldwide (QS Rankings):**\n\n🇬🇧 **UK:** Oxford, Cambridge, Imperial College London, UCL, LSE, Edinburgh, Manchester, King's College London, Warwick, Bristol\n\n🇺🇸 **USA:** MIT, Stanford, Harvard, Caltech, Chicago, Columbia, Yale, Princeton, UC Berkeley, UCLA\n\n🇨🇦 **Canada:** Toronto, McGill, UBC, Waterloo, Alberta, McMaster, Montreal, Ottawa, Queen's\n\n🇦🇺 **Australia:** Melbourne, Sydney, ANU, UNSW, Monash, Queensland, Western Australia, Adelaide\n\n🇩🇪 **Germany:** TU Munich, LMU Munich, Heidelberg, RWTH Aachen, Humboldt Berlin, Free Univ Berlin\n\n🇳🇿 **New Zealand:** Auckland, Otago, Victoria Wellington, Canterbury, Waikato\n\n💡 **For Diploma/HND institutions:** Pearson (BTEC), ATHE, Qualifi, SQA are recognized awarding bodies. Many local colleges offer these under partnership with UK universities.",
+        "**How to choose a university:**\n\n1️⃣ Check QS World University Rankings\n2️⃣ Look at subject-specific rankings (not just overall)\n3️⃣ Check post-study work opportunities\n4️⃣ Compare tuition fees and living costs\n5️⃣ Check scholarship availability\n6️⃣ Look at alumni network and placement rates\n7️⃣ Consider location, climate, and lifestyle\n\nWant recommendations for a specific country or field? Tell me!"
+      ]
+    },
+    {
+      "tag": "diploma_institutions",
+      "patterns": [
+        "Where can I do diploma",
+        "Diploma institutions",
+        "Colleges offering diploma",
+        "Diploma providers",
+        "Who gives diploma certification",
+        "Awarding bodies for diploma",
+        "Diploma from which institution",
+        "Pearson BTEC",
+        "ATHE",
+        "Qualifi",
+        "OTHM",
+        "Local diploma colleges",
+        "Can I do diploma in my country",
+        "Diploma abroad or local"
+      ],
+      "responses": [
+        "🏫 **Diploma & HND Awarding Bodies:**\n\n**International Awarding Bodies:**\n• **Pearson (BTEC)** — Most recognized worldwide, offers BTEC Level 3-5\n• **ATHE** — Awards for Training and Higher Education\n• **Qualifi** — UK-regulated qualifications\n• **OTHM** — Ofqual-regulated qualifications\n• **SQA** — Scottish Qualifications Authority\n• **TQUK** — Training Qualifications UK\n\n**You can do Diploma:**\n✅ **Locally** — Many colleges in your country partner with UK awarding bodies to offer BTEC, ATHE, or Qualifi diplomas. This is cheaper!\n✅ **Abroad** — Study at a college in UK, Malaysia, Singapore, UAE, or other countries\n✅ **Online** — Many providers offer online/blended learning\n\n💡 **Best Strategy:** Do Diploma + HND locally (saves money), then go abroad for Top-up Degree (1 year only!)\n\nWant to know about institutions in a specific country?",
+        "**Diploma institutions are available both locally and internationally!**\n\n🏠 **Local Option:** Many colleges worldwide are accredited by UK bodies like Pearson, ATHE, and Qualifi to deliver Diplomas and HNDs. This saves you money on tuition and living costs.\n\n✈️ **International Option:** Study directly in UK, Malaysia, UAE, Singapore, or other countries for the full international experience.\n\n💻 **Online Option:** Some providers offer distance learning diplomas.\n\n✅ The qualification is the SAME regardless of where you study it — it's the awarding body (Pearson, ATHE, etc.) that matters, not the location!"
+      ]
+    },
+    {
+      "tag": "why_diploma",
+      "patterns": [
+        "Why should I do diploma",
+        "Why diploma and not degree directly",
+        "Is diploma necessary",
+        "Can I skip diploma",
+        "Why not go straight to degree",
+        "Diploma vs direct degree",
+        "Purpose of diploma",
+        "What is the point of diploma"
+      ],
+      "responses": [
+        "**Why do a Diploma instead of going straight to Degree?**\n\n💡 **Cost Savings:** Diploma + HND + Top-up = Same degree but 40-60% cheaper!\n\n📊 **Comparison:**\n• Direct Degree (3 years abroad): £30,000-£90,000 total\n• Diploma (local) + HND (local) + Top-up (abroad): £15,000-£35,000 total\n\n✅ **Other Benefits:**\n• Step-by-step progression — less pressure\n• Work experience between levels\n• Earn while you learn\n• Flexibility to choose when/where to study abroad\n• Same final degree certificate!\n\n⚠️ **Can you skip diploma?** Yes, if you have A-Levels or equivalent, you can apply directly to HND or Degree. Diploma is for those who need a foundation pathway.",
+        "**Diploma is not mandatory but it's a smart choice!**\n\n✅ If you have strong A-Level grades → Apply directly to a Degree\n✅ If you want to save money → Do Diploma + HND locally, then Top-up abroad\n✅ If your grades are not strong → Diploma provides a pathway entry\n✅ If you want practical learning → Diploma is coursework-based, not exam-based\n\nThe Diploma → HND → Top-up pathway gives you the SAME degree as someone who did 3 years at university, but at a fraction of the cost!"
+      ]
+    },
+    {
+      "tag": "post_study_work",
+      "patterns": [
+        "Post study work visa",
+        "Can I work after graduation",
+        "Work visa after study",
+        "PSW visa",
+        "Graduate route",
+        "PGWP",
+        "OPT",
+        "Post study work",
+        "Stay after study",
+        "Can I stay after graduation",
+        "Settlement after study",
+        "PR after study",
+        "Permanent residency after study",
+        "Immigration after study"
+      ],
+      "responses": [
+        "🛂 **Post-Study Work Visa Options:**\n\n🇬🇧 **UK — Graduate Route:**\n• 2 years for Bachelor's/Master's, 3 years for PhD\n• No job offer needed! Free to work any job\n• Can switch to Skilled Worker Visa for long-term stay\n\n🇺🇸 **USA — OPT (Optional Practical Training):**\n• 1 year for regular degrees\n• 3 years for STEM degrees\n• Need employer sponsorship for H-1B after OPT\n\n🇨🇦 **Canada — PGWP:**\n• Up to 3 years depending on study duration\n• Best pathway to Permanent Residency!\n• PGWP → Canadian Experience Class (CEC) → PR\n\n🇦🇺 **Australia — Post-Study Work Stream:**\n• 2 years for Bachelor's\n• 3 years for Master's (research)\n• 4 years for PhD\n• Can lead to PR through skilled migration\n\n🇩🇪 **Germany — Job Seeker Visa:**\n• 18 months to find a job\n• EU Blue Card for skilled workers\n\n🇳🇿 **New Zealand:**\n• 1-3 years depending on qualification level\n• Points-based immigration system for PR\n\nCanada has the BEST post-study immigration pathway!",
+        "**Yes, you can work and stay after graduation!** Most countries offer post-study work visas:\n\n🇬🇧 UK: 2 years\n🇺🇸 USA: 1-3 years (OPT)\n🇨🇦 Canada: Up to 3 years + PR pathway\n🇦🇺 Australia: 2-4 years\n🇩🇪 Germany: 18 months\n🇳🇿 NZ: 1-3 years\n\n🏡 **Best for settling permanently:** Canada > Australia > Germany > UK > NZ > USA\n\nCanada's PGWP + CEC pathway makes it the easiest country to get Permanent Residency after study!"
+      ]
+    },
+    {
+      "tag": "confused",
+      "patterns": [
+        "I am confused", "I'm confused",
+        "I don't know what to do",
+        "I'm lost", "I have no idea",
+        "I can't decide", "Too many options",
+        "I'm not sure", "I don't know my interest",
+        "Everything confuses me", "I'm stuck",
+        "Help me choose"
+      ],
+      "responses": [
+        "It's completely normal to feel confused! Let's break it down step by step:\n\n1️⃣ **Where are you now?** What's your current education level?\n2️⃣ **What's your budget?** This helps choose the right country\n3️⃣ **What's your goal?** Work abroad? Settle permanently? Return home with a degree?\n4️⃣ **What field interests you?** Business, IT, Healthcare, Engineering, Arts?\n\nTell me any of these and I'll narrow down the best options for you!",
+        "Don't worry, I'll help you figure it out! Let's start with these questions:\n\n🤔 Do you want to study locally or abroad?\n🤔 What's your budget?\n🤔 Do you want to settle abroad after study?\n🤔 What subjects do you enjoy?\n\nBased on your answers, I can recommend the perfect pathway: Diploma → HND → Top-up → Master's → PhD, and the best country for you!"
+      ]
+    },
+    {
+      "tag": "currency_info",
+      "patterns": [
+        "Currency exchange",
+        "Currency rates",
+        "How much is pound",
+        "How much is dollar",
+        "GBP to INR",
+        "USD to INR",
+        "Exchange rate",
+        "What currency",
+        "Money conversion",
+        "How much in my currency",
+        "Currency of UK", "Currency of USA", "Currency of Canada",
+        "Currency of Australia", "Currency of Germany"
+      ],
+      "responses": [
+        "💱 **Currency Information (Approximate Rates):**\n\n| Country | Currency | Symbol | ≈ INR | ≈ USD |\n|---------|----------|--------|-------|-------|\n| 🇬🇧 UK | British Pound | £ (GBP) | ₹105 | $1.27 |\n| 🇺🇸 USA | US Dollar | $ (USD) | ₹83 | $1.00 |\n| 🇨🇦 Canada | Canadian Dollar | $ (CAD) | ₹62 | $0.74 |\n| 🇦🇺 Australia | Australian Dollar | $ (AUD) | ₹55 | $0.66 |\n| 🇪🇺 Germany/EU | Euro | € (EUR) | ₹90 | $1.09 |\n| 🇳🇿 New Zealand | NZ Dollar | $ (NZD) | ₹51 | $0.61 |\n\n⚠️ Exchange rates change daily. Check xe.com or Google for current rates.\n\n💡 **Cheapest to study (by currency value):** Germany (free tuition + EUR) > New Zealand > Canada > Australia > UK > USA",
+        "**Currencies by country:**\n\n🇬🇧 UK: Pound Sterling (GBP £) — Strongest currency\n🇺🇸 USA: US Dollar (USD $) — Global standard\n🇨🇦 Canada: Canadian Dollar (CAD $)\n🇦🇺 Australia: Australian Dollar (AUD $)\n🇩🇪 Germany: Euro (EUR €)\n🇳🇿 NZ: New Zealand Dollar (NZD $)\n\n💡 Tip: Even though UK Pound is the strongest, Germany with FREE tuition and lower EUR living costs makes it the most affordable overall!"
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How to apply",
+        "Application process",
+        "How to apply for university",
+        "Application deadline",
+        "UCAS",
+        "How to apply to study abroad",
+        "Steps to study abroad",
+        "Admission process",
+        "How to get admission",
+        "Documents needed",
+        "What documents do I need"
+      ],
+      "responses": [
+        "📋 **Steps to Apply for International Study:**\n\n1️⃣ **Research** — Choose your course, country, and university\n2️⃣ **English Test** — Take IELTS/TOEFL/PTE (6-8 weeks for results)\n3️⃣ **Documents:** Prepare:\n   • Academic transcripts & certificates\n   • Passport (valid 6+ months)\n   • IELTS/TOEFL score report\n   • Statement of Purpose (SOP)\n   • Letters of recommendation (2-3)\n   • CV/Resume\n   • Financial proof (bank statements, sponsor letter)\n   • Passport-size photos\n4️⃣ **Apply** — Submit application via UCAS (UK), Common App (USA), or university portal\n5️⃣ **Offer Letter** — Wait for acceptance (2-8 weeks)\n6️⃣ **Pay Deposit** — Usually £2,000-£5,000 to confirm place\n7️⃣ **Visa Application** — Apply for student visa with CAS/I-20/CoE\n8️⃣ **Accommodation** — Book student housing\n9️⃣ **Travel** — Book flights and arrive!\n\n⏰ **Deadlines:** Most universities have intakes in September/January. Apply 6-9 months in advance!",
+        "**How to apply for international study:**\n\n🇬🇧 UK: Apply via UCAS (for degree) or directly to college (for diploma/HND)\n🇺🇸 USA: Apply via Common App or university website\n🇨🇦 Canada: Apply directly to each university\n🇦🇺 Australia: Apply directly or through an agent\n🇩🇪 Germany: Apply via uni-assist or university portal\n\n📌 Key tip: Start the process 6-9 months before your intake date. Most common intakes are September and January."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Where will I live",
+        "Student accommodation",
+        "Housing for students",
+        "Hostel abroad",
+        "Where to stay while studying",
+        "Student housing",
+        "Dorm rooms",
+        "Living arrangements",
+        "Rent for students"
+      ],
+      "responses": [
+        "🏠 **Student Accommodation Options:**\n\n**1. University Halls/Dorms:**\n• 🇬🇧 UK: £100-£250/week\n• 🇺🇸 USA: $800-$1,500/month\n• 🇨🇦 Canada: CAD 600-1,200/month\n• 🇦🇺 Australia: AUD 150-350/week\n• 🇩🇪 Germany: €250-500/month (Studentenwohnheim)\n\n**2. Private Renting (shared apartment):**\n• Usually 20-30% cheaper than uni halls\n• More freedom but you manage utilities\n\n**3. Homestay:**\n• Live with a local family\n• Includes meals sometimes\n• Great for cultural immersion\n\n💡 **Tips:**\n• Book early — popular halls fill up fast!\n• University accommodation is safest for first year\n• After first year, private renting is usually cheaper\n• Look on websites like Rightmove (UK), Craigslist (USA), Kijiji (Canada)"
+      ]
+    },
+    {
+      "tag": "skills_subjects",
+      "patterns": [
+        "What subjects can I study",
+        "Course options",
+        "Popular courses",
+        "What courses are available",
+        "Best courses to study abroad",
+        "Which subject should I choose",
+        "Course list",
+        "Available subjects",
+        "Popular subjects abroad",
+        "In demand courses"
+      ],
+      "responses": [
+        "📚 **Popular Course Areas for International Students:**\n\n💻 **IT & Computer Science:** Software Engineering, Data Science, AI, Cybersecurity, Web Development\n📊 **Business & Management:** International Business, Marketing, Finance, Accounting, HR, MBA\n⚕️ **Health & Social Care:** Nursing, Public Health, Health Management, Social Work\n🔧 **Engineering:** Mechanical, Civil, Electrical, Aerospace, Chemical\n⚖️ **Law:** International Law, Business Law, Human Rights Law\n🎨 **Arts & Design:** Graphic Design, Fashion, Interior Design, Animation, Film\n🏨 **Hospitality & Tourism:** Hotel Management, Event Management, Tourism\n📰 **Media & Communication:** Journalism, Digital Marketing, Public Relations\n🧬 **Sciences:** Biomedical Science, Environmental Science, Psychology\n📐 **Architecture:** Architecture, Urban Planning\n\n💡 **Most in-demand for jobs:** IT, Healthcare, Business, and Engineering\n\nWhich field interests you?",
+        "**Top in-demand courses worldwide:**\n\n1️⃣ Computer Science / IT — Highest salaries, most jobs\n2️⃣ Business & Management — Universal career path\n3️⃣ Healthcare / Nursing — Always in demand\n4️⃣ Engineering — Strong career prospects\n5️⃣ Data Science / AI — Fastest growing field\n6️⃣ Digital Marketing — Every company needs it\n7️⃣ Cybersecurity — Critical shortage of professionals\n\nThese courses are available at Diploma, HND, Degree, and Master's levels!"
+      ]
+    }
+  ]
+}

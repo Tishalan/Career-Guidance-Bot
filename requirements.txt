@@ -1,0 +1,6 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+Flask>=0.11
+nltk>=3.5
+PyYAML>=6.0scikit-learn>=1.0.0
