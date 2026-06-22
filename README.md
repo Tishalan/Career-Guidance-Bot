@@ -139,6 +139,6 @@ This project is open source. Add your preferred license (e.g. MIT) here.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Built as a student-focused tool to simplify access to study-abroad and career pathway information.
