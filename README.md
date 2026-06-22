@@ -1,4 +1,4 @@
-# 🎓 Career Buddy — Career Guidance Bot
+# Career Buddy — Career Guidance Bot
 
 An AI-powered chatbot that guides students on international education — diplomas, degrees, masters, student visas, costs, and study options in the UK, USA, Canada, Australia, Germany, and New Zealand.
 
@@ -6,18 +6,18 @@ Built with **Flask**, **scikit-learn**, and **NLTK**, the bot uses keyword/patte
 
 ---
 
-## 📌 Features
+## Features
 
-- 💬 Real-time chat interface (no page reload — AJAX-based)
-- 📚 36+ topics covered — qualification levels (Diploma, HND, Top-up Degree, Bachelor's, Master's, PhD), country guides, visas, costs, scholarships, IELTS, accommodation, and more
-- 🧠 Two-layer answer engine: fast keyword matching + ML model (TF-IDF + Logistic Regression) fallback for fuzzy/unseen questions
-- 🚫 Basic profanity filter using NLTK tokenization
-- 🗂️ Easy-to-edit knowledge base (`intents.json`) — add new topics without touching code
-- 🖥️ Clean, responsive chat UI built with Bootstrap
+- Real-time chat interface (no page reload — AJAX-based)
+- 36+ topics covered — qualification levels (Diploma, HND, Top-up Degree, Bachelor's, Master's, PhD), country guides, visas, costs, scholarships, IELTS, accommodation, and more
+- Two-layer answer engine: fast keyword matching + ML model (TF-IDF + Logistic Regression) fallback for fuzzy/unseen questions
+- Basic profanity filter using NLTK tokenization
+- Easy-to-edit knowledge base (`intents.json`) — add new topics without touching code
+- Clean, responsive chat UI built with Bootstrap
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -30,7 +30,7 @@ Built with **Flask**, **scikit-learn**, and **NLTK**, the bot uses keyword/patte
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 User Message
@@ -49,7 +49,7 @@ Every word is also checked against a blocked-words list before processing, to fi
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 career_bot/
@@ -70,7 +70,7 @@ career_bot/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -104,7 +104,7 @@ http://localhost:5000
 
 ---
 
-## 🧩 Adding New Topics
+## Adding New Topics
 
 To teach the bot a new topic, just add a new entry to `intents.json`:
 
@@ -120,19 +120,20 @@ No code changes needed. Re-run `train_model.py` afterward so the ML fallback als
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-> _Add a screenshot or GIF of the chat interface here._
+<img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/9f541d48-3e2c-4099-b9ef-96c91467ff9c" />
+_
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+## License
 
 This project is open source. Add your preferred license (e.g. MIT) here.
 
